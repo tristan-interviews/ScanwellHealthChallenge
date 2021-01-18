@@ -1,11 +1,9 @@
-package io.tristanlarsin.scanwellhealthchallenge.repositorys
+package io.tristanlarsin.scanwellhealthchallenge.repositories
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import dagger.Module
 
 object DataRepository {
-
 
     private val charset by lazy {
         ('a'..'z') + ('A'..'Z') + ('0'..'9')

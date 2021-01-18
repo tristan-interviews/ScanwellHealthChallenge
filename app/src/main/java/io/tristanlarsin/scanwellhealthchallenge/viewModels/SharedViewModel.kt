@@ -2,7 +2,7 @@ package io.tristanlarsin.scanwellhealthchallenge.viewModels
 
 import androidx.hilt.lifecycle.ViewModelInject
 import androidx.lifecycle.LiveData
-import io.tristanlarsin.scanwellhealthchallenge.repositorys.DataRepository
+import io.tristanlarsin.scanwellhealthchallenge.repositories.DataRepository
 import io.tristanlarsin.scanwellhealthchallenge.viewModels.SharedViewModel.Action
 import io.tristanlarsin.scanwellhealthchallenge.viewModels.SharedViewModel.ViewState
 import io.tristanlarsin.scanwellhealthchallenge.base.BaseViewModel

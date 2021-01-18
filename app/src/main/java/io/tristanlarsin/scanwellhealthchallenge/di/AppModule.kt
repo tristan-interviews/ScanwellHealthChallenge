@@ -4,7 +4,7 @@ import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.components.ApplicationComponent
-import io.tristanlarsin.scanwellhealthchallenge.repositorys.DataRepository
+import io.tristanlarsin.scanwellhealthchallenge.repositories.DataRepository
 import javax.inject.Singleton
 
 @Module
